@@ -1,0 +1,9 @@
+[project]
+name = "payments-ledger-api"
+version = "0.1.0"
+description = "API de ledger financeiro para estudar consistencia transacional, idempotencia e modelagem contabil de dupla entrada."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]==0.137.1",
+]
